@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityDataDeliver</string>
+    <string name="enter_text_you_want_to_pass">Enter Text You Want To Pass</string>
+    <string name="pass_the_text">Pass The Text</string>
+</resources>
