@@ -17,8 +17,10 @@ public class SecondActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String str = intent.getStringExtra("exdata");
+        int num = intent.getIntExtra("exnum", -1);
 
-        TextView textView =(TextView)findViewById(R.id.text_passed);
-        textView.setText(str);
+        TextView textView = (TextView) findViewById(R.id.text_passed);
+        textView.setText("The text you jest input is \"" + str + " \".\n" +
+                "and the random number is " + num + ".");
     }
 }
